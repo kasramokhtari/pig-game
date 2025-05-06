@@ -46,7 +46,7 @@ const rollDice = function () {
   if (playing) {
     const dice = Number(Math.floor(Math.random() * 6) + 1);
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `images/dice-${dice}.png`;
 
     // Check for rolled one
     if (dice !== 1) {
